@@ -1,0 +1,35 @@
+# Entorno virtual y dependencias
+.venv/
+env/
+venv/
+
+# Caches de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Secretos y credenciales (CISO Mandate)
+.env
+*.env
+secrets/.env
+secrets/*.env
+!secrets/.env.example
+.streamlit/secrets.toml
+
+# Datos de usuario, sesiones y estado local (Privacidad CISO)
+sessions/
+flashcards.csv
+learner_state.json
+
+# Herramientas de desarrollo e IDEs
+.gemini/
+.vscode/
+.idea/
+refactor.py
+
+# Archivos de sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
